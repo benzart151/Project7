@@ -59,15 +59,26 @@ body, html{
     font-size: 200x;
     position: relative;
     top: 45px;
+    margin-bottom: 50px;
 }
 
 /*-----Trailer-----*/
 #trailer{
     position: relative;
-    margin: auto;
-
-#trailer ifame{
-    margin: auto;
-    position: relative;
-    }
+    top: -30px;
 }
+.trailer{
+    position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+    text-align: center;
+    background-color: black;
+    }
+.trailer ifame{
+   position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+    }
