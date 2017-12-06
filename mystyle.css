@@ -1,0 +1,73 @@
+/*-----Background Image-----*/
+body, html{
+    background-image: url("images/Background.jpg");
+   	height: 100%;
+	background-position: top;
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+
+/*-----Navigation Bar-----*/
+.navBar{
+    position: fixed;
+    width: 100%;
+    max-height: 40px;
+    left: -1px;
+    top: -1px;
+    background-color: black;
+    z-index: 9998;
+}
+.navBarText{
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: -1px;
+    z-index: 9999;
+}
+.navBarText a:link, a:active, a:hover, a:visited {
+    text-decoration: none;
+}
+.navBarText a:link{
+    color: white;
+    font-weight: 400;
+}
+.navBarText a:hover{
+    color: red;
+    font-weight: 700;
+    text-shadow: 1px 1px 3px #FF1493;
+}
+.navBarText a: active{
+    color: greenyellow;
+    font-weight: 600;   
+}
+.navBarText a:visited{
+    color: coral;
+    font-weight: 500;
+}
+
+/*-----Home Page-----*/
+.poster{
+    width: 100%;
+    z-index: 1;
+}
+
+.home{
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 200x;
+    position: relative;
+    top: 45px;
+}
+
+/*-----Trailer-----*/
+#trailer{
+    position: relative;
+    margin: auto;
+
+#trailer ifame{
+    margin: auto;
+    position: relative;
+    }
+}
