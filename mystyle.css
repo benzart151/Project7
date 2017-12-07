@@ -91,3 +91,20 @@ body, html{
 .trailer iframe{
     padding: 20px;
 }
+.trailer div{
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 10px;
+}
+.trailer a:link, a:visited, a:active{
+    color: white;
+    text-decoration: none;
+}
+.trailer a:hover{
+    color: red;
+    text-decoration: none;
+    text-shadow: 1px 1px 3px #FF1493;
+}
+    
+
