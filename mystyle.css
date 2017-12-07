@@ -84,5 +84,10 @@ body, html{
 .trailer{
     position: relative;
     margin: auto;
-
+    text-align: center;
+    background-color: #003906;
+    
     }
+.trailer iframe{
+    padding: 20px;
+}
