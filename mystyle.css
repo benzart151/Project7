@@ -125,6 +125,15 @@ body, html{
     top: 45px;
     margin-bottom: 50px;
 }
+.tickets a:link, a:visited, a:active{
+    color: white;
+    text-decoration: none;
+}
+.tickets a:hover{
+    color: red;
+    text-decoration: none;
+    text-shadow: 1px 1px 3px #FF1493;
+}
 
 /*-----Trailer-----*/
 #trailer{
