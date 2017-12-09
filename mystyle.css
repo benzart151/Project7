@@ -5,8 +5,18 @@ body, html{
 	background-position: top;
     background-repeat: repeat-y;
     background-size: cover;
+    font-family: sans-serif;
 }
-
+a:link, a:active, a:hover, a:visited {
+    text-decoration: none;
+}
+a:link, a:visited, a:active{
+    color: white;
+}
+a:hover{
+    color: red;
+    text-shadow: 1px 1px 3px #FF1493;
+}
 /*-----Navigation Bar-----*/
 .navBar{
     position: fixed;
@@ -125,18 +135,21 @@ body, html{
     top: 45px;
     margin-bottom: 50px;
 }
-
-/*-----Trailer-----*/
-#trailer{
-    position: relative;
-    top: -30px;
+.tickets a:link, a:visited, a:active{
+    color: white;
+    text-decoration: none;
 }
+.tickets a:hover{
+    color: red;
+    text-decoration: none;
+    text-shadow: 1px 1px 3px #FF1493;
+}
+/*-----Trailer-----*/
 .trailer{
     position: relative;
     margin: auto;
     text-align: center;
     background-color: #003906;
-    
     }
 .trailer iframe{
     padding: 20px;
@@ -146,6 +159,7 @@ body, html{
     font-size: 30px;
     font-weight: 600;
     padding: 10px;
+    margin-bottom: 10px;
 }
 .trailer a:link, a:visited, a:active{
     color: white;
@@ -156,5 +170,44 @@ body, html{
     text-decoration: none;
     text-shadow: 1px 1px 3px #FF1493;
 }
-    
+/*------Actors-----*/
+.actTable{
+    color: white;
+    background-color: #410D09;
+    padding: 10px;
+}
+.actTable td{
+    padding: 10px;
+}
+
+.actTable td a:hover{
+    color: red;
+}
+.actTable tr:nth-child(even) {background-color: #003906;}
+.actTable tr:nth-child(odd) {background-color: #048B21;}
+
+/*-----Critics-----*/
+#critics{
+    color: #048B21;
+    background-color: #FDF668;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 20px
+}
+
+/*-----Footer-----*/
+#footer{
+    position: relative;
+    bottom: 0px;
+    display: block;
+    margin: auto;
+    background-color: black;
+}
+.marvel{
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+}
+.marvel a:hover{color: red;}
 
